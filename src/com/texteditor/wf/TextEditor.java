@@ -12,6 +12,7 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
@@ -31,6 +32,7 @@ public class TextEditor {
       field.setText(args[0]);
       readFromFileToTextArea();
     }
+    // TODO Prevent exit if unsaved changes
   }
 
   public static void initiateGui() {
@@ -90,7 +92,7 @@ public class TextEditor {
     } catch (IOException e) {
       System.err.println("Could not open file '" + textFile + "' for writing.");
     }
-    // TODO Notify user whether file wrote successfully
+    // TODO Notify user whether file wrote successfully, disable write button?
   }
 
 }
