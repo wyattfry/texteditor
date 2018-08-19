@@ -98,6 +98,7 @@ public class TextEditor {
       }
       fileScanner.close();
     } catch (FileNotFoundException e) {
+      // TODO Notify user via GUI JPanelblahblahblah
       System.err.println("File '" + textFile + "' not found.");
       e.printStackTrace();
     }
