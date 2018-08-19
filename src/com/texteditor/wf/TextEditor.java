@@ -12,7 +12,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
-import javax.swing.Icon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
@@ -44,6 +43,8 @@ public class TextEditor {
     // TODO Keyboard shortcuts
     // TODO Open recent
     // TODO Menu structure
+    // TODO Write tests
+    // TODO Set up CI/CD
   }
 
   public static void initiateGui() {
@@ -125,7 +126,6 @@ public class TextEditor {
   }
 
   public static void updateWriteButton() {
-    System.out.println("Unsaved changes: " + hasUnsavedChanges());
     writeButton.setEnabled(hasUnsavedChanges());
     writeButton.setText(hasUnsavedChanges() ? "Save" : "Saved");
   }

@@ -24,4 +24,4 @@ java -cp out/production/texteditor/ com.texteditor.wf.TextEditor /path/to/text/f
 ```
 
 ## Usage
-To open a text file, enter its path in the text field then click "Read". If the file exists, it will load its contents to the text area. Make any desired changes. To save your changes, click the "Write" button.
+To open a text file, enter its path in the text field then press `Enter` or click "Open". If the file exists, it will load its contents to the text area. Make any desired changes. To save your changes, click the "Save" button. If there are no changes to save, the button will be disabled.
