@@ -2,6 +2,8 @@
 
 A text editor written in Java.
 
+![Screenshot of the text editor](texteditor-screenshot.png)
+
 ## Build
 
 ```sh
