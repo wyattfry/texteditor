@@ -1,6 +1,6 @@
 # TextEditor
 
-A text editor written in Java.
+A GUI plaintext editor written in Java using Swing.
 
 ![Screenshot of the text editor](texteditor-screenshot.png)
 
